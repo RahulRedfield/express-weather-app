@@ -1,0 +1,30 @@
+{{>header}}
+<form class="form">
+    <input id="city-input" class="input" type="text" placeholder="Enter your city name" required="true" />
+    <button id="submit-btn" class="btn" type="submit">Search</button>
+</form>
+
+
+
+<div id="weather" class="weather">
+    <div class="day-info">
+        <p id="day" class="day">Tuesday</p>
+        <p id="time" class="time">11:00 <span class="meridies">am</span></p>
+    </div>
+    <img id="weather-icon" class="weather-icon" src="http://openweathermap.org/img/wn/02d@2x.png">
+
+    </img>
+    <div class="weather-info">
+        <p id="deg" class="deg">16°<span class="cel">C</span></p>
+        <div class="weather-condition">
+            <p id="condition" class="condition">Cloudy</p>
+            <p id="location" class="location">Sukrakarta, IN</p>
+        </div>
+    </div>
+</div>
+
+<p id="error-text" class="hide">Please enter the city name properly!</p>
+
+<script src="./js/info.js"></script>
+
+{{>footer}}

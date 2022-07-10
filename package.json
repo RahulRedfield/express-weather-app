@@ -1,0 +1,15 @@
+{
+  "name": "weather_app_nodejs_expressjs",
+  "version": "1.0.0",
+  "description": "simple weather app built with express js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RahulRedfield",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "hbs": "^4.2.0"
+  }
+}
